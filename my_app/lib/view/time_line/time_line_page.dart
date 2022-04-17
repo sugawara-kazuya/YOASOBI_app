@@ -90,6 +90,7 @@ class _TimeLinePageState extends State<TimeLinePage> {
                                       ),
                                       //SizedBox(height: 10,),
                                       Text(post.content),
+                                      SizedBox(height: 10),
 
                                       Container(
                                         child: Row(
@@ -101,12 +102,7 @@ class _TimeLinePageState extends State<TimeLinePage> {
                                                 Text(DateFormat('yyyy/M/d HH:mm').format(post.createTime!.toDate())),
                                               ],
                                             ),
-                                            IconButton(
-                                                onPressed: (){
-                                                  Navigator.push(context, MaterialPageRoute(builder: (context) => EditPostPage()));
-                                                },
-                                                icon: Icon(Icons.edit)
-                                            ),
+
                                           ],
                                         ),
 

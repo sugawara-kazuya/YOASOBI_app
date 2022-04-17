@@ -8,6 +8,7 @@ import 'package:my_app/view/account/edit_account_page.dart';
 
 import '../../model/account.dart';
 import '../../model/post.dart';
+import '../time_line/edit_post_page.dart';
 
 class AccountPage extends StatefulWidget {
   const AccountPage({Key? key}) : super(key: key);
@@ -114,11 +115,11 @@ class _AccountPageState extends State<AccountPage> {
                                               color: Colors.grey, width: 0),)
                                       ),
                                       padding: EdgeInsets.symmetric(
-                                          horizontal: 10, vertical: 15),
+                                          horizontal: 5, vertical: 5),
                                       child: Row(
                                         children: [
                                           CircleAvatar(
-                                            radius: 22,
+                                            radius: 25,
                                             foregroundImage: NetworkImage(
                                                 myAccount.imagePath),
                                           ),
@@ -145,12 +146,30 @@ class _AccountPageState extends State<AccountPage> {
                                                                     .grey),),
                                                         ],
                                                       ),
-                                                      Text(DateFormat('M/d/yy')
-                                                          .format(
-                                                          post.createTime!.toDate()))
+                                                      //Text(DateFormat('M/d/yy').format(post.createTime!.toDate()))
                                                     ],
                                                   ),
-                                                  Text(post.content)
+                                                  Text(post.content),
+                                                  Container(
+                                                    child: Row(
+                                                      mainAxisAlignment: MainAxisAlignment.end,
+                                                      children: [
+                                                        Row(
+                                                          mainAxisAlignment: MainAxisAlignment.end,
+                                                          children: [
+                                                            Text(DateFormat('yyyy/M/d HH:mm').format(post.createTime!.toDate())),
+                                                          ],
+                                                        ),
+                                                        IconButton(
+                                                            onPressed: (){
+                                                              Navigator.push(context, MaterialPageRoute(builder: (context) => EditPostPage()));
+                                                            },
+                                                            icon: Icon(Icons.edit)
+                                                        ),
+                                                      ],
+                                                    ),
+
+                                                  ),
                                                 ],
                                               ),
                                             ),
