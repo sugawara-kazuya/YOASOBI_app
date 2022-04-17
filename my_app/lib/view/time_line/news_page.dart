@@ -4,6 +4,7 @@ import 'package:my_app/newses/news_2.dart';
 import 'package:my_app/newses/news_3.dart';
 
 import '../../newses/news_4.dart';
+import '../../newses/news_5.dart';
 
 class NewsPage extends StatefulWidget {
   const NewsPage({Key? key}) : super(key: key);
@@ -33,7 +34,7 @@ class _NewsPageState extends State<NewsPage> {
             },
             child: Card(
               child: ListTile(
-                title: Text('AYASEさんの食べられる野菜'),
+                title: Text('YOASOBIとは？？'),
               ),
             ),
           ),
@@ -43,7 +44,7 @@ class _NewsPageState extends State<NewsPage> {
             },
             child: Card(
               child: ListTile(
-                title: Text('ikuraちゃんの歌'),
+                title: Text('ボーカルikuraちゃん！'),
               ),
             ),
           ),
@@ -53,7 +54,7 @@ class _NewsPageState extends State<NewsPage> {
             },
             child: Card(
               child: ListTile(
-                title: Text('ほのぐもさんの秘密'),
+                title: Text('バンドメンバー紹介！'),
               ),
             ),
           ),
@@ -63,7 +64,17 @@ class _NewsPageState extends State<NewsPage> {
             },
             child: Card(
               child: ListTile(
-                title: Text('We are Asshre'),
+                title: Text('デビュー曲　夜にかけるの裏側'),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => News_5()));
+            },
+            child: Card(
+              child: ListTile(
+                title: Text('Ayaseさんの好きな野菜・嫌いな野菜'),
               ),
             ),
           ),

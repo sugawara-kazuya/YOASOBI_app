@@ -18,6 +18,37 @@ class _News_2State extends State<News_2> {
         elevation: 5,
         iconTheme: IconThemeData(color: Colors.white),
       ),
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Padding(
+            padding: const EdgeInsets.all(30.0),
+            child: Container(
+              alignment: Alignment.centerLeft,
+              child: Column(
+                children: [
+                  Text('ikuraちゃんはの本名は幾多りらさんといいます。実はもともとは「こころ」ちゃんという名前だったみたいです！',style: TextStyle(fontSize: 20,),),
+                  SizedBox(height: 20,),
+                  Text('',style: TextStyle(fontSize: 20,),),
+                  SizedBox(height: 20,),
+                  Text('',style: TextStyle(fontSize: 20,),),
+                  SizedBox(height: 20,),
+                  Text('',style: TextStyle(fontSize: 20,),),
+                  SizedBox(height: 20,),
+                  Text('',style: TextStyle(fontSize: 20,),),
+                  SizedBox(height: 20,),
+                  Text('',style: TextStyle(fontSize: 20,),),
+                  SizedBox(height: 20,),
+
+
+
+
+                ],
+
+              ),
+            ),
+          ),
+        ),
+      ),
     );
   }
 }
