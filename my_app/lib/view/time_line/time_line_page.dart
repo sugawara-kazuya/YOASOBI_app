@@ -67,7 +67,7 @@ class _TimeLinePageState extends State<TimeLinePage> {
                               radius: 25,
                               foregroundImage: NetworkImage(postAccount.imagePath),
                             ),
-
+                            SizedBox(width: 10,),
                             Expanded(
                               child: Padding(
                                 padding: const EdgeInsets.all(1.0),

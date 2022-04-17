@@ -78,6 +78,107 @@ class _NewsPageState extends State<NewsPage> {
               ),
             ),
           ),
+          InkWell(
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => News_4()));
+            },
+            child: Card(
+              child: ListTile(
+                title: Text('デビュー曲　夜にかけるの裏側'),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => News_4()));
+            },
+            child: Card(
+              child: ListTile(
+                title: Text('デビュー曲　夜にかけるの裏側'),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => News_4()));
+            },
+            child: Card(
+              child: ListTile(
+                title: Text('デビュー曲　夜にかけるの裏側'),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => News_4()));
+            },
+            child: Card(
+              child: ListTile(
+                title: Text('デビュー曲　夜にかけるの裏側'),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => News_4()));
+            },
+            child: Card(
+              child: ListTile(
+                title: Text('デビュー曲　夜にかけるの裏側'),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => News_4()));
+            },
+            child: Card(
+              child: ListTile(
+                title: Text('デビュー曲　夜にかけるの裏側'),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => News_4()));
+            },
+            child: Card(
+              child: ListTile(
+                title: Text('デビュー曲　夜にかけるの裏側'),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => News_4()));
+            },
+            child: Card(
+              child: ListTile(
+                title: Text('デビュー曲　夜にかけるの裏側'),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => News_4()));
+            },
+            child: Card(
+              child: ListTile(
+                title: Text('デビュー曲　夜にかけるの裏側'),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => News_4()));
+            },
+            child: Card(
+              child: ListTile(
+                title: Text('デビュー曲　夜にかけるの裏側'),
+              ),
+            ),
+          ),
+
         ],
       ),
     );

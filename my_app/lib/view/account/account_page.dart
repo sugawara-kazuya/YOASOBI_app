@@ -123,6 +123,7 @@ class _AccountPageState extends State<AccountPage> {
                                             foregroundImage: NetworkImage(
                                                 myAccount.imagePath),
                                           ),
+                                          SizedBox(width: 10,),
                                           Expanded(
                                             child: Container(
                                               child: Column(

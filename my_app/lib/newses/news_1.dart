@@ -30,7 +30,7 @@ class _News_1State extends State<News_1> {
                     SizedBox(height: 20,),
                     Text('Ayaseさんは音楽合成ソフト・VOCALOIDで楽曲制作を行うボカロPとしても活動しており、Hey! Say! JUMP!やLiSAとUruのコラボ曲などの楽曲提供も手掛けています。',style: TextStyle(fontSize: 20,),),
                     SizedBox(height: 20,),
-                    Text('ikuraさんはシンガーソングライター『幾田りら』名義でも活動。アコースティックセッションユニット『ぷらそにか』のメンバーの1人でもあり、カバー曲を中心とした動画をYouTubeへ投稿しています。',style: TextStyle(fontSize: 20,),),
+                    Text('ikuraさんはシンガーソングライター『幾田りら』名義でも活動。アコースティックセッションユニット『ぷらそにか』のメンバーの1人でもあり、カバー曲を中心とした動画をYouTubeへ投稿していました。',style: TextStyle(fontSize: 20,),),
                     SizedBox(height: 20,),
                     Text('ソニーミュージックが運用する小説・イラスト投稿サイト『monogatary.com』で行われた、大賞に輝いた小説を楽曲化するコンテスト『モノコン2019』をきっかけにYOASOBIが結成。以降はデビュー曲「夜に駆ける」を初めとした数々の楽曲を発表しています。',style: TextStyle(fontSize: 20,),),
                     SizedBox(height: 20,),

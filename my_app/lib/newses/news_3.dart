@@ -13,7 +13,7 @@ class _News_3State extends State<News_3> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('ほのぐもさんの秘密', style: TextStyle(color: Colors.pinkAccent),),
+        title: Text('バンドメンバー紹介', style: TextStyle(color: Colors.pinkAccent),),
         backgroundColor: Colors.black,
         elevation: 5,
         iconTheme: IconThemeData(color: Colors.white),

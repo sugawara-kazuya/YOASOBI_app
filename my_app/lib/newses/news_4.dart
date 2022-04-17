@@ -13,7 +13,7 @@ class _News_4State extends State<News_4> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('We are Asshre', style: TextStyle(color: Colors.pinkAccent),),
+        title: Text('デビュー曲　夜にかけるの裏側', style: TextStyle(color: Colors.pinkAccent),),
         backgroundColor: Colors.black,
         elevation: 5,
         iconTheme: IconThemeData(color: Colors.white),
